@@ -1,0 +1,29 @@
+# Configuration/Services.yaml
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Code711\UpdateTrustedHostFromSites\:
+    resource: '../Classes/*'
+
+  Code711\UpdateTrustedHostFromSites\Command\UpdateConfigCommand:
+    tags:
+      - name: console.command
+        command: 'code711:updatetrustedhostfromsites'
+        description: 'update SYS/trustedHostsPattern based on the site configuration'
+        schedulable: true
+
+  Code711\UpdateTrustedHostFromSites\Listeners\AfterSiteWriteListener:
+    tags:
+      - name: event.listener
+        identifier: 'updateTrustedHostPatternsAfterSiteWrite'
+  Code711\UpdateTrustedHostFromSites\Listeners\AfterSiteRenameListener:
+    tags:
+      - name: event.listener
+        identifier: 'updateTrustedHostPatternsAfterSiteRename'
+  Code711\UpdateTrustedHostFromSites\Listeners\AfterSiteDeleteListener:
+    tags:
+      - name: event.listener
+        identifier: 'updateTrustedHostPatternsAfterSiteDelete'
