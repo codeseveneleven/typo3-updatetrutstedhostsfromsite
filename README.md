@@ -1,9 +1,10 @@
 # TYPO3 Site config - automatic updates to $GLOBALS['TYPO3_CONF_VARS']['SYS']['trustedHostsPattern']
 
-[![Latest Stable Version](https://poser.pugx.org/code711/updatetrustedhostfromsites/v/stable.svg)](https://extensions.typo3.org/code711/updatetrustedhostfromsites/)
+[![Latest Stable Version](https://poser.pugx.org/code711/updatetrutstedhostsfromsite/v/stable.svg)](https://extensions.typo3.org/extension/updatetrustedhostfromsites)
+[![TYPO3 12](https://img.shields.io/badge/TYPO3-12-orange.svg)](https://get.typo3.org/version/12)
 [![TYPO3 11](https://img.shields.io/badge/TYPO3-11-orange.svg)](https://get.typo3.org/version/11)
-[![Total Downloads](https://poser.pugx.org/code711/updatetrustedhostfromsites/d/total.svg)](https://packagist.org/packages/code711/updatetrustedhostfromsites)
-[![Monthly Downloads](https://poser.pugx.org/code711/updatetrustedhostfromsites/d/monthly)](https://packagist.org/packages/code711/updatetrustedhostfromsites)
+[![Total Downloads](https://poser.pugx.org/code711/updatetrutstedhostsfromsite/d/total.svg)](https://packagist.org/packages/code711/updatetrutstedhostsfromsite)
+[![Monthly Downloads](https://poser.pugx.org/code711/updatetrutstedhostsfromsite/d/monthly)](https://packagist.org/packages/code711/updatetrutstedhostsfromsite)
 ![PHPSTAN:Level 9](https://img.shields.io/badge/PHPStan-level%208-brightgreen.svg?style=flat])
 ![build:passing](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat])
 

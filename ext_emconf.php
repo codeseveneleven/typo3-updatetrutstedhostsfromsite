@@ -15,7 +15,7 @@ $EM_CONF['updatetrutstedhostsfromsite'] = [
     'title' => '(Code711) Update Trusted Hosts Pattern',
     'description' => "This extension will update the \$GLOBALS['TYPO3_CONF_VARS']['SYS']['trustedHostsPattern'] based on the available Sites. Requires EXT:siteconfigurationevents",
     'category' => 'plugin',
-    'version' => '1.0.0',
+    'version' => '1.1.0',
     'state' => 'stable',
     'clearcacheonload' => 1,
     'author' => 'Frank Berger',
@@ -23,7 +23,7 @@ $EM_CONF['updatetrutstedhostsfromsite'] = [
     'author_company' => 'Code711, a label of Sudhaus7, B-Factor GmbH and 12bis3 GbR',
     'constraints' => [
         'depends' => [
-            'typo3' => '11.5.0-11.5.99',
+            'typo3' => '11.5.0-12.99.99',
             'siteconfigurationevents' => '1.0.0-1.99.99',
         ],
         'conflicts' => [
